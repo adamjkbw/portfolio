@@ -80,6 +80,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: 60px;
 }
 
 #languages h1 {
@@ -100,6 +101,25 @@ header{
     justify-content: space-around;
 }
 
+#python{
+    transform: translate();
+}
+
+#c {
+
+}
+
+#html {
+    transform: translateX(25px) scale(95%);
+}
+
+#css {
+    transform: translateX(25px);
+}
+
+#sql {
+    transform: translateX(40px) translateY(20px);
+}
 
 #human {
     display: flex;
@@ -116,6 +136,7 @@ header{
 .secondRow {
     display: flex;
     justify-content: space-around;
+    transform: translateY(10px);
 }
 
 #parcours {
@@ -147,14 +168,16 @@ header{
 #projects {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center, space-around;
     align-items: center;
+    max-width: 70% ;
+    margin : 0 auto;
 }
 
 .projectImage:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
-
+    border: 1px solid gray;
 }
 
 #siteCocktail {
@@ -178,10 +201,13 @@ header{
 .description {
     margin : 5%;
     font-family: Source Code Pro;
+    font-weight: light;
     max-width: 400px; 
     background-color: #000000;
     padding: 20px;
     border-radius: 20px;
+    height: 30%;
+
 }
 
 .description:hover {
