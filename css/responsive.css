@@ -56,3 +56,30 @@
     }
 }
 
+@media screen and (max-width: 321px) {
+
+    #menu li {
+        font-size: 20px;
+    }
+
+    #cs {
+        margin-bottom: 60px;
+    }
+
+    #sql {
+        transform: translateX(50px) translateY(25px);
+    }
+
+    #human {
+        flex-direction: row;
+    }
+
+    .languageImages {
+        width: 100px;
+        height: auto;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+}
