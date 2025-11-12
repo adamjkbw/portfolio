@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #141414;
+    opacity: 1;
+    background-size: 30px 30px;
+    background-image:  repeating-linear-gradient(to right, #3d3d3d, #3d3d3d 1.5px, #141414 1.5px, #141414);
+}
+
+h1, h2, h3, li{
+    color: white;
+    font-family: Funnel Sans;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+
+#menu{
+    display: flex; 
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+
+#menu li {
+    margin: 0 15px; 
+    font-family: Source Code Pro;
+}
+
+#menu li:hover .menu {
+    color: lightgreen;
+}
+
+
+.menu {
+    text-decoration: none; 
+    color: white; 
+}
+
+#home {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentation {
+    height : 300px;
+    margin : 20px;
+    font-size: 120%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center;
+}
+
+#languages {
+    background-color: rgb(0, 0, 0);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#languages h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+#languagesIm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#human {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.firstRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+#parcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.languageImages {
+    border : 2px solid #2e2e2e;
+}
+
+.schoolImage {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#Magendie, #Junia {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 17, 17);
+    margin: 10px;
+    border-radius: 30px;
+    width: 50%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectImage:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#siteCocktail {
+    display: flex;
+    align-items : center;
+    justify-content : space-around;
+    max-width: 1200px; 
+    width: 90%;
+}
+
+#portfolio {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.description {
+    margin : 5%;
+    font-family: Source Code Pro;
+    max-width: 400px; 
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.description:hover {
+    color: lightgreen;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.button-link:hover {
+    background-color: #2e2e2e;
+    cursor: pointer;
+}

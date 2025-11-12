@@ -1,0 +1,11 @@
+Portfolio 
+
+Qui suis je : Un Développeur en formation à l'école Isen Junia
+
+Languages connus : Python, html, css, c, sql 
+		   Anglais, Italien, Polonais, Français
+
+Parcours : section Internationale (collège), section Européenne (Lycée), 1ere année prépa integrée Isen Junia
+
+Projets : Site de cocktail, Jeu de voitures, Ce portfolio
+
