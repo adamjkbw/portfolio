@@ -1,0 +1,34 @@
+@media screen and (max-width:768px) {
+    .schoolImage{
+        max-height: auto;
+        width: 100px;
+    }
+
+    #Magendie, #Junia {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #siteCocktail {
+        flex-direction: column-reverse;
+    }
+
+    #portfolio {
+        flex-direction: column;
+    }
+
+    .projectImage {
+        width: 70%;
+    }
+
+    .projectImage:hover {
+        transform: scale(200%);
+    }
+}
+
+@media screen and (max-width:425px) {
+    #languagesIm {
+        flex-direction: column;
+
+    }
+}
