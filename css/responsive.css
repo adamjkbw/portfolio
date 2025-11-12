@@ -26,9 +26,33 @@
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:426px) {
+
+    #menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     #languagesIm {
         flex-direction: column;
 
     }
+
+    #cs {
+        margin-bottom: 40px;
+    }
+
+    #sql {
+        transform: translateX(75px) translateY(15px);
+
+    }
+
+    #Magendie, #Junia {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 15px;
+    }
 }
+
